@@ -6,16 +6,10 @@ function toggleMode() {
 
   if (html.classList.contains("light")) {
     img.setAttribute("src", "assets/avatar-light.jpg");
-    img.set(
-      "alt",
-      "Foto do Maik de oculos de sol sorrindo e jaqueta de frio preta"
-    );
+    img.set("alt", "Foto da Daniele sorrindo com fundo laranja");
   } else {
     img.setAttribute("src", "assets/avatar.jpg");
-    img.setAttribute(
-      "alt",
-      "Foto da Daniele sorrindo, com óculos, cachecol e cabelos mais claros"
-    );
+    img.setAttribute("alt", "Foto da Daniele sorrindo com fundo rosa ");
   }
 
   /*  
